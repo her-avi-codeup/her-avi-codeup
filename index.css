@@ -1,9 +1,14 @@
+*{
+    text-align: center;
+}
+
 .my-container {
     border: 1px solid green;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding:;
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    /*margin: 0;*/
+    /*padding:;*/
+    height: 100%;
 
 }
 
@@ -30,16 +35,56 @@ h1, h2, h3, h4, h5 {
 .my-row {
     background-color: white;
     border: 3px solid red;
-    height: 60px;
+    height:60px;
+    text-align: center;
+
 
 }
 
 .my-col {
     border: 3px dotted blue;
     background-color: azure;
+
 }
 .my-col2 {
     border: 3px dotted blue;
     background-color: rgb(57, 245, 245);
     text-align: center;
 }
+
+.my-logo{
+   position: absolute;
+    z-index: 1000;
+}
+
+.my-col-top{
+    height: 55px;
+    background-color: dimgray;
+
+}
+.my-title{
+    font-family: 'Abel',sans-serif;
+    font-size: 40px;
+    background-color: dimgray;
+    padding-top: 20px;
+}
+
+.my-nav{
+   padding: 30px 0;
+    font-family: 'Abel',sans-serif;
+    font-size: 24px;
+
+}
+
+.my-H1{
+    font-size: 64px;
+    font-family: 'Anton' ,sans-serif;
+}
+
+.my-H2{
+    font-size: 48px;
+    font-family: 'Anton' ,sans-serif;
+    padding: 30px 0;
+
+}
+
