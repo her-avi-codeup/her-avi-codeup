@@ -19,69 +19,165 @@
 
 </head>
 
+<div class="key">
+    <p class="XS d-block d-sm-none">xtrasmall</p>
+    <p class="SM d-none d-sm-block d-md-none">small</p>
+    <p class="MD d-none d-md-block d-lg-none ">meduim</p>
+    <p class="L  d-none d-lg-block d-xl-none ">large</p>
+    <p class="XL d-none d-xl-block">xtralarge</p>
+</div>
+
 <body>
 
-    <!-- TODO: Nav-items -->
+<!-- TODO: Nav-items -->
 
     <div class="container-fluid my-container">
-            <div class="row my-row">
-            <div class="col-12 my-col-top"></div>
-                <!--        <div class="col-md-6 col-sm-6 my-col-top">-->
-                <!--            HEADER-->
-                <!--        </div>-->
-            </div>
 
-        <section class="d-flex flex-column">
-            <div class="row justify-content-center align-items-center my-row">
-                <img class="my-logo" src="images/logo.png" height="135" width="135"/>
-                <!--        <img src="images/logo.png" class="img-fluid" alt="Responsive image">-->
-            </div>
-            <div class="row align-items-center my-row2">
-                <div class="col-12  my-title">
-                    codeup design
-                </div>
-                <div class="col-12 my-col">
-                    <div class="row  justify-content-center align-items-center my-nav">
 
-                        <div class="col-3">Services</div>
-                        <div class="col-3">Work</div>
-                        <div class="col-3">Blog</div>
-                        <div class="col-3">Contact</div>
-                    </div>
-                </div>
-                <div class="col-md-12  my-H1">
-                    VISUAL DESIGN & <br>WEB DEVELOPMENT
-                </div>
-                <div class="col-md-12  my-H2">
-                    FROM PARK CITY, UTAH
-                </div>
+    <div class="row justify-content-center align-items-center  my-row">
+        <div class="col-12 my-col-top"></div>
+    </div>
+    <!--                    <img src="images/logo.png" class="img-fluid" alt="Responsive image">-->
+
+
+    <section class="d-flex  flex-column">
+        <div class="row justify-content-center align-items-center my-row">
+
+            <img class="my-logo d-md-none " src="images/logo.png" height="135" width="135"/>
+        </div>
+        <div class="col-12 d-none d-sm-block d-md-none my-col">
+            <div class="row  justify-content-around align-items-center   my-nav-sm">
+                <div class="col-2">Services</div>
+                <div class="col-2">Work</div>
+                <div class="spacer mx-5"></div>
+                <div class="col-2">Blog</div>
+                <div class="col-2">Contact</div>
             </div>
-        </section>
+        </div>
+
+
+        <div class="container-fluid col-12 d-none d-md-block d-lg-none my-col">
+            <img class="my-logo-m d-none d-md-block d-lg-none " src="images/logo.png" height="135" width="135"/>
+            <div class="d-flex  justify-content-end  my-nav-m">
+                <div class="col-2">  </div>
+                <div class="p-2 mr-auto ">codeupdesign</div>
+                <div class="p-2 ">Services</div>
+                <div class="p-2">Work</div>
+                <div class="p-2">Blog</div>
+                <div class="p-2">Contact</div>
+            </div>
+        </div>
+
+        <div class="container-fluid justify-content-center col-12 d-none d-lg-block mr-auto my-col">
+            <img class="my-logo-m d-none d-lg-block " src="images/logo.png" height="135" width="135"/>
+            <div class="row  justify-content-center  my-nav-m">
+                <div class="col-2"> </div>
+                <div class="p-3 mr-auto ">codeupdesign</div>
+                <div class="p-3 ">Services</div>
+                <div class="p-3">Work</div>
+                <div class="p-3">Blog</div>
+                <div class="p-3">Contact</div>
+                <!--                <div class="p-3 ml-auto"></div>-->
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- CODEUP: DESIGN -->
+
+        <div class="row align-items-center my-row2">
+            <div class="col-12 d-md-none my-title">codeup design</div>
+        </div>
+
+
+
+
+
+        <!-- CODEUP: DESIGN -->
+
+
+        <div class="col-12 d-block d-sm-none my-col">
+            <div class="row  justify-content-center align-items-center d-sm-none  my-nav">
+                <div class="col-3">Services</div>
+                <div class="col-3">Work</div>
+                <div class="col-3">Blog</div>
+                <div class="col-3">Contact</div>
+            </div>
+        </div>
+
+
+        <div class="col-md-12  my-H1">VISUAL DESIGN & <br class="d-sm-none">WEB DEVELOPMENT</div>
+        <div class="col-md-12  my-H2">FROM PARK CITY, UTAH</div>
 
 
         <!-- TODO: Circles -->
-        <div class="container d-sm-flex justify-content-center">
-        <div class="row justify-content-around col-sm-8 align-items-center">
-            <span class="circle circle-orange"><p class="c-font">Design</p> </span>
-            <span class="circle circle-yellow"><p class="c-font"> Develop</p></span>
+        <div class="container d-block d-sm-none justify-content-center">
+            <div class="row justify-content-center  col-md-12  align-items-center my-circle-row">
+                <span class="circle mx-2 circle-orange"><p class="c-font">Design</p> </span>
+                <span class="circle mx-2 circle-yellow"><p class="c-font"> Develop</p></span>
+                <span class="circle mx-2 circle-green"><p class="c-font"> Support</p></span>
+                <span class="circle mx-2 circle-blue"><p class="c-font"> Host</p></span>
+            </div>
 
-            <span class="circle circle-green"><p class="c-font"> Support</p></span>
-            <span class="circle circle-blue"><p class="c-font"> Host</p></span>
         </div>
 
+        <div class="container-fluid d-none d-sm-block d-md-none justify-content-center ">
+            <div class="row justify-content-center    align-items-center my-circle-row">
+                <span class="circle-sm mx-2 circle-orange"><p class="c-font-sm">Design</p> </span>
+                <span class="circle-sm mx-2 circle-yellow"><p class="c-font-sm"> Develop</p></span>
+                <span class="circle-sm mx-2 circle-green"><p class="c-font-sm"> Support</p></span>
+                <span class="circle-sm mx-2 circle-blue"><p class="c-font-sm"> Host</p></span>
+            </div>
+
         </div>
 
-        <hr class="d-none d-sm-flex col-sm-8">
+        <div class="container-fluid d-none d-md-block d-lg-none justify-content-center ">
+            <div class="row justify-content-center    align-items-center my-circle-row">
+                <span class="circle-sm mx-2 circle-orange"><p class="c-font-sm">Design</p> </span>
+                <span class="circle-sm mx-2 circle-yellow"><p class="c-font-sm"> Develop</p></span>
+                <span class="circle-sm mx-2 circle-green"><p class="c-font-sm"> Support</p></span>
+                <span class="circle-sm mx-2 circle-blue"><p class="c-font-sm"> Host</p></span>
+            </div>
 
-        <!-- TODO: Pictures -->
+        </div>
 
-        <div class="row align-items-center my-row2">
-            <div class="col-sm-12  my-select-works">
+        <div class="container d-none d-lg-block justify-content-center">
+            <div class="row justify-content-center  col-md-12  align-items-center my-circle-row">
+                <span class="circle mx-2 circle-orange"><p class="c-font">Design</p> </span>
+                <span class="circle mx-2 circle-yellow"><p class="c-font"> Develop</p></span>
+                <span class="circle mx-2 circle-green"><p class="c-font"> Support</p></span>
+                <span class="circle mx-2 circle-blue"><p class="c-font"> Host</p></span>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <hr class="d-none d-flex col-sm-8 col-md-10">
+
+        <div class="row d-md-none align-items-center my-row2">
+            <div class="col-sm-12 col-md-8 d-md-flex my-select-works">
                 Selected Works
             </div>
-            <div class="col-sm-12  my-col">
-                <!--            Row 1 Col 1-->
-                <!--            <img src="images/apple-ipad.jpg" height="426" width="640"/></div>-->
+
+            <div class="col-12 col-sm-6 card">
                 <img src="images/apple-ipad.jpg" class="img-fluid" alt="Responsive image">
                 <div class="d-flex justify-content-between align-items-center">
                     <span class="col-7 text-left  my-footer">FEATURED PROJECT</span>
@@ -92,7 +188,112 @@
                     <span class="circle2 circle-blue"><p class="c-font2">H</p> </span>
                 </div>
             </div>
+
+            <div class="d-none d-sm-block col-sm-6 card">
+                <img src="images/macbook.jpg" class="img-fluid" alt="Responsive image">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="col-7 text-left  my-footer">FEATURED PROJECT</span>
+                    <span></span>
+                    <span class="circle2 circle-orange "><p class="c-font2">D</p> </span>
+                    <span class="circle2 circle-yellow"><p class="c-font2">D</p> </span>
+                    <span class="circle2 circle-green"><p class="c-font2">S</p> </span>
+                    <span class="circle2 circle-blue"><p class="c-font2">H</p> </span>
+                </div>
+            </div>
+
+            <div class="d-none d-sm-block col-sm-6 card">
+                <img src="images/man.jpg" class="img-fluid" alt="Responsive image">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="col-7 text-left  my-footer">FEATURED PROJECT</span>
+                    <span></span>
+                    <span class="circle2 circle-orange "><p class="c-font2">D</p> </span>
+                    <span class="circle2 circle-yellow"><p class="c-font2">D</p> </span>
+                    <span class="circle2 circle-green"><p class="c-font2">S</p> </span>
+                    <span class="circle2 circle-blue"><p class="c-font2">H</p> </span>
+                </div>
+            </div>
+
+            <div class="d-none d-sm-block col-sm-6 card">
+                <img src="images/security.jpg" class="img-fluid" alt="Responsive image">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="col-7 text-left  my-footer">FEATURED PROJECT</span>
+                    <span></span>
+                    <span class="circle2 circle-orange "><p class="c-font2">D</p> </span>
+                    <span class="circle2 circle-yellow"><p class="c-font2">D</p> </span>
+                    <span class="circle2 circle-green"><p class="c-font2">S</p> </span>
+                    <span class="circle2 circle-blue"><p class="c-font2">H</p> </span>
+                </div>
+            </div>
         </div>
+
+        <!-- TODO: medium picture layout -->
+
+
+        <div class="row d-none d-md-block align-items-center my-row2">
+            <div class="d-flex my-select-works">
+                <span>Selected Works</span>
+            </div>
+            <div class="row">
+                <div class="col-4 d-block card">
+                    <img src="images/apple-ipad.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="col-7 text-left text-size- my-footer-md">FEATURED PROJECT</span>
+                        <span></span>
+                        <span class="circle-med circle-orange "><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-yellow"><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-green"><p class="c-font2">S</p> </span>
+                        <span class="circle-med circle-blue"><p class="c-font2">H</p> </span>
+                    </div>
+                </div>
+
+                <div class="col-4 d-block card">
+                    <img src="images/macbook.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="col-7 text-left  my-footer-md">FEATURED PROJECT</span>
+                        <span></span>
+                        <span class="circle-med circle-orange "><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-yellow"><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-green"><p class="c-font2">S</p> </span>
+                        <span class="circle-med circle-blue"><p class="c-font2">H</p> </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4 d-block card">
+                    <img src="images/man.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="col-7 text-left  my-footer-md">FEATURED PROJECT</span>
+                        <span></span>
+                        <span class="circle-med circle-orange "><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-yellow"><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-green"><p class="c-font2">S</p> </span>
+                        <span class="circle-med circle-blue"><p class="c-font2">H</p> </span>
+                    </div>
+                </div>
+
+                <div class="col-4 d-block card">
+                    <img src="images/security.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="col-7 text-left  my-footer-md">FEATURED PROJECT</span>
+                        <span></span>
+                        <span class="circle-med circle-orange "><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-yellow"><p class="c-font2">D</p> </span>
+                        <span class="circle-med circle-green"><p class="c-font2">S</p> </span>
+                        <span class="circle-med circle-blue"><p class="c-font2">H</p> </span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="d-flex my-select-works">
+                    <span>Selected Works</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
     </div>
 
 </body>
